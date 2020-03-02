@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:umldi="http://www.omg.org/spec/UML/20131001/UMLDI" xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC" xmlns:thecustomprofile="http://www.sparxsystems.com/profiles/thecustomprofile/1.0">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model">
+		<packagedElement xmi:type="uml:Profile" xmi:id="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" name="PW-CRC-Dawida">
+			<ownedComment xmi:type="uml:Comment" xmi:id="EAID_92B1B59D_5D35_4d4a_AF17_D8948419958A" body="To edit this Stereotype using the Profile Helper, right-click it and select the 'Edit with Profile Helper' command.">
+				<annotatedElement xmi:idref="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57"/>
+			</ownedComment>
+			<packagedElement xmi:type="uml:Stereotype" xmi:id="EAID_0AD15F76_4DB2_4e97_8B9B_C52AA4EAE3C7" name="Struktura">
+				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_B159B345_3341_4b71_BB2E_5ACFC8E5BDD3" name="PW-CRC-Dawida::CRC(UML::Class)">
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000001_3341_4b71_BB2E_5ACFC8E5BDD3" value="1"/>
+					<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000002_3341_4b71_BB2E_5ACFC8E5BDD3" value="1"/>
+				</ownedAttribute>
+				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_B226660B_E549_4b82_9DDE_4BC7F2BF1AFD" name="PW-CRC-Dawida::Odpowiedzialno&#347;&#263;(UML::Operation)">
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000003_E549_4b82_9DDE_4BC7F2BF1AFD" value="1"/>
+					<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000004_E549_4b82_9DDE_4BC7F2BF1AFD" value="1"/>
+				</ownedAttribute>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_E17637BB_8F71_4244_96EC_BA8FA56FFF3B" supplier="EAID_D7E7714F_6D68_4374_A79C_650C71195563" client="EAID_0AD15F76_4DB2_4e97_8B9B_C52AA4EAE3C7"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_D7E7714F_6D68_4374_A79C_650C71195563" name="ToolboxPage"/>
+			<packagedElement xmi:type="uml:Stereotype" xmi:id="EAID_1EE941D7_DB44_472b_A153_2607DB79CDF3" name="Zachowanie">
+				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_AAD6E878_64EE_4bbb_A0CF_F3E2BF1EC925" name="PW-CRC-Dawida::Komunikat(UML::Operation)">
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000005_64EE_4bbb_A0CF_F3E2BF1EC925" value="1"/>
+					<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000006_64EE_4bbb_A0CF_F3E2BF1EC925" value="1"/>
+				</ownedAttribute>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_94CF0A0B_CDEF_4ae1_B520_35A45BE44420" supplier="EAID_D7E7714F_6D68_4374_A79C_650C71195563" client="EAID_1EE941D7_DB44_472b_A153_2607DB79CDF3"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_0DAEBB90_053A_45de_B684_6ABB56B41B89"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_1747BE10_EEA1_4b4f_8B4B_D8FC2F3EDF4F"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_2F4960DE_3C5E_4b68_BB7D_EAF3A3E35E68" name="$help://toolbox_profiles.htm"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_330A1B79_BCE8_4b1d_99CF_7435E10FB471"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_5A8A44EB_6A5C_4726_96ED_833DDE3AE450"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_7984406C_42B8_4eb7_A2C6_3520938884FF" name="$help://toolbox_page_attributes.htm"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_81394EA6_BE28_443e_9FE0_AFB3EBE5993B"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_D8F1712C_E162_4e22_9D6B_19657359E8F5"/>
+		</packagedElement>
+		<umldi:Diagram xmi:type="umldi:UMLClassDiagram" xmi:id="EAID_547433A0_12BD_4fbd_B721_1021A7B2F301" isFrame="false" modelElement="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57">
+			<ownedElement xmi:type="umldi:UMLShape" xmi:id="EAID_547433A0_12BD_4fbd_9FE0_AFB3EBE5993B" modelElement="EAID_81394EA6_BE28_443e_9FE0_AFB3EBE5993B">
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_9FE0_AFB3EBE5993B" x="0" y="0" width="333" height="39"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLShape" xmi:id="EAID_547433A0_12BD_4fbd_9D6B_19657359E8F5" modelElement="EAID_D8F1712C_E162_4e22_9D6B_19657359E8F5">
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_9D6B_19657359E8F5" x="26" y="207" width="528" height="48"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLShape" xmi:id="EAID_547433A0_12BD_4fbd_96ED_833DDE3AE450" modelElement="EAID_5A8A44EB_6A5C_4726_96ED_833DDE3AE450">
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_96ED_833DDE3AE450" x="65" y="281" width="493" height="48"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLShape" xmi:id="EAID_547433A0_12BD_4fbd_99CF_7435E10FB471" modelElement="EAID_330A1B79_BCE8_4b1d_99CF_7435E10FB471">
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_99CF_7435E10FB471" x="26" y="41" width="528" height="143"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLShape" xmi:id="EAID_547433A0_12BD_4fbd_B684_6ABB56B41B89" modelElement="EAID_0DAEBB90_053A_45de_B684_6ABB56B41B89">
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_B684_6ABB56B41B89" x="26" y="723" width="128" height="22"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLShape" xmi:id="EAID_547433A0_12BD_4fbd_BB7D_EAF3A3E35E68" modelElement="EAID_2F4960DE_3C5E_4b68_BB7D_EAF3A3E35E68">
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_12BD_4fbd_BB7D_EAF3A3E35E68" text="$help://toolbox_profiles.htm"/>
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_BB7D_EAF3A3E35E68" x="59" y="762" width="150" height="20"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLShape" xmi:id="EAID_547433A0_12BD_4fbd_A2C6_3520938884FF" modelElement="EAID_7984406C_42B8_4eb7_A2C6_3520938884FF">
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_12BD_4fbd_A2C6_3520938884FF" text="$help://toolbox_page_attributes.htm"/>
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_A2C6_3520938884FF" x="59" y="791" width="150" height="20"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLShape" xmi:id="EAID_547433A0_12BD_4fbd_8B4B_D8FC2F3EDF4F" modelElement="EAID_1747BE10_EEA1_4b4f_8B4B_D8FC2F3EDF4F">
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_8B4B_D8FC2F3EDF4F" x="26" y="619" width="549" height="29"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLShape" xmi:id="EAID_547433A0_12BD_4fbd_82D8_D425A2ED7937" modelElement="EAID_9DD24C6F_3E78_4e99_82D8_D425A2ED7937">
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_12BD_4fbd_82D8_D425A2ED7937" text="PW-CRC-Dawida :Building An MDG Technology"/>
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_82D8_D425A2ED7937" x="26" y="679" width="198" height="22"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLShape" xmi:id="EAID_547433A0_12BD_4fbd_AF17_D8948419958A" modelElement="EAID_92B1B59D_5D35_4d4a_AF17_D8948419958A">
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_AF17_D8948419958A" x="419" y="460" width="115" height="79"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_547433A0_12BD_4fbd_A79C_650C71195563" modelElement="EAID_D7E7714F_6D68_4374_A79C_650C71195563">
+				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_12BD_4fbd_A79C_650C71195563" text="metaclass"/>
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_12BD_4fbd_A79C_650C71195563" text="ToolboxPage"/>
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_A79C_650C71195563" x="929" y="60" width="90" height="70"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_547433A0_12BD_4fbd_8B9B_C52AA4EAE3C7" modelElement="EAID_0AD15F76_4DB2_4e97_8B9B_C52AA4EAE3C7">
+				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_12BD_4fbd_8B9B_C52AA4EAE3C7" text="stereotype"/>
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_12BD_4fbd_8B9B_C52AA4EAE3C7" text="Struktura"/>
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_8B9B_C52AA4EAE3C7" x="637" y="261" width="325" height="70"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_547433A0_12BD_4fbd_A153_2607DB79CDF3" modelElement="EAID_1EE941D7_DB44_472b_A153_2607DB79CDF3">
+				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_12BD_4fbd_A153_2607DB79CDF3" text="stereotype"/>
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_12BD_4fbd_A153_2607DB79CDF3" text="Zachowanie"/>
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_12BD_4fbd_A153_2607DB79CDF3" x="1012" y="267" width="264" height="70"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_547433A0_12BD_4fbd_B520_35A45BE44420" source="EAID_1EE941D7_DB44_472b_A153_2607DB79CDF3" target="EAID_D7E7714F_6D68_4374_A79C_650C71195563" modelElement="EAID_94CF0A0B_CDEF_4ae1_B520_35A45BE44420">
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_12BD_4fbd_B520_35A45BE44420" x="1115" y="267"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_12BD_4fbd_B520_35A45BE44420" x="1002" y="130"/>
+			</ownedElement>
+			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_547433A0_12BD_4fbd_96EC_BA8FA56FFF3B" source="EAID_0AD15F76_4DB2_4e97_8B9B_C52AA4EAE3C7" target="EAID_D7E7714F_6D68_4374_A79C_650C71195563" modelElement="EAID_E17637BB_8F71_4244_96EC_BA8FA56FFF3B">
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_12BD_4fbd_96EC_BA8FA56FFF3B" x="829" y="261"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_12BD_4fbd_96EC_BA8FA56FFF3B" x="943" y="130"/>
+			</ownedElement>
+		</umldi:Diagram>
+		<profileApplication xmi:type="uml:ProfileApplication" xmi:id="profileap_thecustomprofile">
+			<appliedProfile xmi:type="uml:Profile" href="http://www.sparxsystems.com/profiles/thecustomprofile/1.0#thecustomprofile"/>
+		</profileApplication>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" xmi:type="uml:Package" name="PW-CRC-Dawida" scope="public">
+				<model package2="EAID_0EF7C18C_DD36_414d_9887_579EB265EF57" package="EAPK_1B692468_F332_4f46_8294_852F06DE1BC7" tpos="3" ea_localid="398" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="toolbox profile"/>
+				<project author="Sylwester" version="1.0" phase="1.0" created="2020-03-02 19:41:03" modified="2020-03-02 19:41:03" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={11B8C94D-4B06-4a9c-9F47-BE1471384F38}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=toolbox profile;GUID={56A54B39-BBE9-445b-86ED-8667B868BF7B};@ENDSTEREO;$DES;$CLT={0EF7C18C-DD36-414d-9887-579EB265EF57}$CLT;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+				<packageproperties version="1.0" tpos="3"/>
+				<paths/>
+				<times created="2020-03-02 19:41:03" modified="2020-03-02 19:41:02" lastloaddate="2020-03-02 19:41:02" lastsavedate="2020-03-02 19:41:02"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_0AD15F76_4DB2_4e97_8B9B_C52AA4EAE3C7" xmi:type="uml:Class" name="Struktura" scope="public">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" tpos="0" ea_localid="1457" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="stereotype" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Sylwester" version="1.0" phase="1.0" created="2020-03-02 19:55:58" modified="2020-03-02 19:55:58" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={BFDDD1F0-9CB0-465c-B9C5-5C3B6CEFA561}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=stereotype;GUID={1E829E2E-7890-48aa-9032-5637861147BF};@ENDSTEREO;$DES;$CLT={0AD15F76-4DB2-4e97-8B9B-C52AA4EAE3C7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+				<attributes>
+					<attribute xmi:idref="EAID_B159B345_3341_4b71_BB2E_5ACFC8E5BDD3" name="PW-CRC-Dawida::CRC(UML::Class)" scope="Public">
+						<initial body="Karta Crc"/>
+						<documentation/>
+						<model ea_localid="507" ea_guid="{B159B345-3341-4b71-BB2E-5ACFC8E5BDD3}"/>
+						<properties collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment position="0"/>
+						<stereotype/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex/>
+						<tags/>
+						<xrefs/>
+					</attribute>
+					<attribute xmi:idref="EAID_B226660B_E549_4b82_9DDE_4BC7F2BF1AFD" name="PW-CRC-Dawida::Odpowiedzialno&#347;&#263;(UML::Operation)" scope="Public">
+						<initial body="odpowiedzialno&#347;&#263; karty"/>
+						<documentation/>
+						<model ea_localid="508" ea_guid="{B226660B-E549-4b82-9DDE-4BC7F2BF1AFD}"/>
+						<properties collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment position="0"/>
+						<stereotype/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex/>
+						<tags/>
+						<xrefs/>
+					</attribute>
+				</attributes>
+				<links>
+					<Extension xmi:id="EAID_E17637BB_8F71_4244_96EC_BA8FA56FFF3B" start="EAID_0AD15F76_4DB2_4e97_8B9B_C52AA4EAE3C7" end="EAID_D7E7714F_6D68_4374_A79C_650C71195563"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_D7E7714F_6D68_4374_A79C_650C71195563" xmi:type="uml:Class" name="ToolboxPage" scope="public">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" tpos="0" ea_localid="1456" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="metaclass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Sylwester" version="1.0" phase="1.0" created="2020-03-02 19:55:58" modified="2020-03-02 19:55:58" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={1C7B4DC3-0082-45e3-8E23-FABFE5233F6E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=metaclass;GUID={ACEC7793-4473-4a0e-9382-C407936B8999};@ENDSTEREO;$DES;$CLT={D7E7714F-6D68-4374-A79C-650C71195563}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+				<links>
+					<Extension xmi:id="EAID_94CF0A0B_CDEF_4ae1_B520_35A45BE44420" start="EAID_1EE941D7_DB44_472b_A153_2607DB79CDF3" end="EAID_D7E7714F_6D68_4374_A79C_650C71195563"/>
+					<Extension xmi:id="EAID_E17637BB_8F71_4244_96EC_BA8FA56FFF3B" start="EAID_0AD15F76_4DB2_4e97_8B9B_C52AA4EAE3C7" end="EAID_D7E7714F_6D68_4374_A79C_650C71195563"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_1EE941D7_DB44_472b_A153_2607DB79CDF3" xmi:type="uml:Class" name="Zachowanie" scope="public">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" tpos="0" ea_localid="1458" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="stereotype" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Sylwester" version="1.0" phase="1.0" created="2020-03-02 19:56:44" modified="2020-03-02 19:56:44" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={AE7F1177-F076-47ca-8031-024BA5F69484}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=stereotype;GUID={1E829E2E-7890-48aa-9032-5637861147BF};@ENDSTEREO;$DES;$CLT={1EE941D7-DB44-472b-A153-2607DB79CDF3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+				<attributes>
+					<attribute xmi:idref="EAID_AAD6E878_64EE_4bbb_A0CF_F3E2BF1EC925" name="PW-CRC-Dawida::Komunikat(UML::Operation)" scope="Public">
+						<initial body="Komunikat"/>
+						<documentation/>
+						<model ea_localid="509" ea_guid="{AAD6E878-64EE-4bbb-A0CF-F3E2BF1EC925}"/>
+						<properties collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment position="0"/>
+						<stereotype/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex/>
+						<tags/>
+						<xrefs/>
+					</attribute>
+				</attributes>
+				<links>
+					<Extension xmi:id="EAID_94CF0A0B_CDEF_4ae1_B520_35A45BE44420" start="EAID_1EE941D7_DB44_472b_A153_2607DB79CDF3" end="EAID_D7E7714F_6D68_4374_A79C_650C71195563"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_0DAEBB90_053A_45de_B684_6ABB56B41B89" xmi:type="uml:Text" scope="public">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" tpos="0" ea_localid="1436" ea_eleType="element"/>
+				<properties documentation="Help &amp;amp; Resources" isSpecification="false" sType="Text" nType="0" scope="public"/>
+				<project author="Sylwester" version="1.0" phase="1.0" created="2020-03-02 19:41:03" modified="2020-03-02 19:41:03" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+			</element>
+			<element xmi:idref="EAID_1747BE10_EEA1_4b4f_8B4B_D8FC2F3EDF4F" xmi:type="uml:Text" scope="public">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" tpos="0" ea_localid="1444" ea_eleType="element"/>
+				<properties documentation="2. Save your Toolbox Profile by right clicking the Diagram and selecting 'Save as Profile'" isSpecification="false" sType="Text" nType="0" scope="public"/>
+				<project author="Sylwester" version="1.0" phase="1.0" created="2020-03-02 19:41:03" modified="2020-03-02 19:41:03" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+			</element>
+			<element xmi:idref="EAID_2F4960DE_3C5E_4b68_BB7D_EAF3A3E35E68" xmi:type="uml:Text" name="$help://toolbox_profiles.htm" scope="public">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" tpos="0" ea_localid="1441" ea_eleType="element" name="$help://toolbox_profiles.htm"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Create Toolbox Profiles" scope="public"/>
+				<project author="Sylwester" version="1.0" phase="1.0" created="2020-03-02 19:41:03" modified="2020-03-02 19:41:03" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+			</element>
+			<element xmi:idref="EAID_330A1B79_BCE8_4b1d_99CF_7435E10FB471" xmi:type="uml:Text" scope="public">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" tpos="0" ea_localid="1434" ea_eleType="element"/>
+				<properties documentation="A Toolbox Profile is a mechanism for creating Custom Toolboxes. A Custom Toolbox provides quick access to profile elements relevant to a given diagram type. A Custom Toolbox consists of a number of compartments or Toolbox Pages, and each Toolbox Page consists of one or more Toolbox Items. &#xA;&#xA;This diagram defines a Custom Toolbox, each stereotype on the diagram defines a Toolbox Page, and each attribute owned by a stereotype defines a Toolbox Item." isSpecification="false" sType="Text" nType="0" scope="public"/>
+				<project author="Sylwester" version="1.0" phase="1.0" created="2020-03-02 19:41:03" modified="2020-03-02 19:41:03" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+			</element>
+			<element xmi:idref="EAID_5A8A44EB_6A5C_4726_96ED_833DDE3AE450" xmi:type="uml:Text" scope="public">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" tpos="0" ea_localid="1438" ea_eleType="element"/>
+				<properties documentation="This is a simple example of a Toolbox Page called 'ecoSystemElements' that contains one Toolbox Item, a stereotype from the PW-CRC-Dawida profile." isSpecification="false" sType="Text" nType="0" scope="public"/>
+				<project author="Sylwester" version="1.0" phase="1.0" created="2020-03-02 19:41:03" modified="2020-03-02 19:41:03" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+			</element>
+			<element xmi:idref="EAID_7984406C_42B8_4eb7_A2C6_3520938884FF" xmi:type="uml:Text" name="$help://toolbox_page_attributes.htm" scope="public">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" tpos="0" ea_localid="1435" ea_eleType="element" name="$help://toolbox_page_attributes.htm"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Toolbox Page Attributes" scope="public"/>
+				<project author="Sylwester" version="1.0" phase="1.0" created="2020-03-02 19:41:03" modified="2020-03-02 19:41:03" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+			</element>
+			<element xmi:idref="EAID_81394EA6_BE28_443e_9FE0_AFB3EBE5993B" xmi:type="uml:Text" scope="public">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" tpos="0" ea_localid="1443" ea_eleType="element"/>
+				<properties documentation="Creating a Toolbox Profile" isSpecification="false" sType="Text" nType="0" scope="public"/>
+				<project author="Sylwester" version="1.0" phase="1.0" created="2020-03-02 19:41:03" modified="2020-03-02 19:41:03" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+			</element>
+			<element xmi:idref="EAID_92B1B59D_5D35_4d4a_AF17_D8948419958A" xmi:type="uml:Note" scope="public">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" tpos="0" ea_localid="1437" ea_eleType="element"/>
+				<properties documentation="To edit this Stereotype using the Profile Helper, right-click it and select the 'Edit with Profile Helper' command." isSpecification="false" sType="Note" nType="0" scope="public"/>
+				<project author="ncapey" version="1.0" phase="1.0" created="2020-03-02 19:41:03" modified="2020-03-02 19:41:03" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+			</element>
+			<element xmi:idref="EAID_D8F1712C_E162_4e22_9D6B_19657359E8F5" xmi:type="uml:Text" scope="public">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" tpos="0" ea_localid="1442" ea_eleType="element"/>
+				<properties documentation="1. Create a Toolbox Page by dragging the 'Add Toolbox Page' Profile Helper onto this Diagram." isSpecification="false" sType="Text" nType="0" scope="public"/>
+				<project author="Sylwester" version="1.0" phase="1.0" created="2020-03-02 19:41:03" modified="2020-03-02 19:41:03" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="PW-CRC-Dawida"/>
+			</element>
+		</elements>
+		<connectors>
+			<connector xmi:idref="EAID_E17637BB_8F71_4244_96EC_BA8FA56FFF3B">
+				<source xmi:idref="EAID_0AD15F76_4DB2_4e97_8B9B_C52AA4EAE3C7">
+					<model ea_localid="1457" type="Class" name="Struktura"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_D7E7714F_6D68_4374_A79C_650C71195563">
+					<model ea_localid="1456" type="Class" name="ToolboxPage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="1196"/>
+				<properties ea_type="Extension" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_94CF0A0B_CDEF_4ae1_B520_35A45BE44420">
+				<source xmi:idref="EAID_1EE941D7_DB44_472b_A153_2607DB79CDF3">
+					<model ea_localid="1458" type="Class" name="Zachowanie"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_D7E7714F_6D68_4374_A79C_650C71195563">
+					<model ea_localid="1456" type="Class" name="ToolboxPage"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="1197"/>
+				<properties ea_type="Extension" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+		</connectors>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package"/>
+		</primitivetypes>
+		<profiles>
+			<uml:Profile xmlns:uml="http://www.omg.org/spec/UML/20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmi:id="thecustomprofile" nsPrefix="thecustomprofile" name="thecustomprofile" metamodelReference="mmref01">
+				<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="thecustomprofile">
+					<body> Version:1.0</body>
+				</ownedComment>
+				<packageImport xmi:id="mmref01">
+					<importedPackage href="http://www.omg.org/spec/UML/20131001"/>
+				</packageImport>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="metaclass" name="metaclass">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="metaclass-base_Class" name="base_Class" association="Class_metaclass">
+						<type href="http://www.omg.org/spec/UML/20131001/UML.xmi#Class"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_metaclass" name="A_Class_metaclass" memberEnd="extension_metaclass metaclass-base_Class">
+					<ownedEnd xmi:id="extension_metaclass" name="extension_metaclass" type="metaclass" isComposite="true" lower="0" upper="1" memberEnd="extension_metaclass metaclass-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="toolbox profile" name="toolbox profile">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="toolbox profile-base_Profile" name="base_Profile" association="Profile_toolbox profile">
+						<type href="http://www.omg.org/spec/UML/20131001/UML.xmi#Profile"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Profile_toolbox profile" name="A_Profile_toolbox profile" memberEnd="extension_toolbox profile toolbox profile-base_Profile">
+					<ownedEnd xmi:id="extension_toolbox profile" name="extension_toolbox profile" type="toolbox profile" isComposite="true" lower="0" upper="1" memberEnd="extension_toolbox profile toolbox profile-base_Profile"/>
+				</packagedElement>
+			</uml:Profile>
+		</profiles>
+		<diagrams>
+			<diagram xmi:id="EAID_547433A0_12BD_4fbd_B721_1021A7B2F301">
+				<model package="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" localID="319" owner="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57"/>
+				<properties name="PW-CRC-Dawida" type="Logical"/>
+				<project author="Sylwester" version="1.0" created="2020-03-02 19:41:03" modified="2020-03-02 20:01:29"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=823;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=1;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=587E9563;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=1012;Top=267;Right=1276;Bottom=337;" subject="EAID_1EE941D7_DB44_472b_A153_2607DB79CDF3" seqno="1" style="DUID=D60DB98D;"/>
+					<element geometry="Left=637;Top=261;Right=962;Bottom=331;" subject="EAID_0AD15F76_4DB2_4e97_8B9B_C52AA4EAE3C7" seqno="2" style="DUID=C6268EFB;"/>
+					<element geometry="Left=929;Top=60;Right=1019;Bottom=130;" subject="EAID_D7E7714F_6D68_4374_A79C_650C71195563" seqno="3" style="DUID=CA981629;"/>
+					<element geometry="Left=419;Top=460;Right=534;Bottom=539;" subject="EAID_92B1B59D_5D35_4d4a_AF17_D8948419958A" seqno="4" style="DUID=9D44F004;"/>
+					<element geometry="Left=26;Top=679;Right=224;Bottom=701;" subject="EAID_9DD24C6F_3E78_4e99_82D8_D425A2ED7937" seqno="5" style="NSL=0;DUID=29D75479;"/>
+					<element geometry="Left=26;Top=619;Right=575;Bottom=648;" subject="EAID_1747BE10_EEA1_4b4f_8B4B_D8FC2F3EDF4F" seqno="6" style="font=Times New Roman;fontsz=120;bold=0;black=0;italic=0;ul=0;charset=0;pitch=18;ImageID=0;DUID=018EC67D;"/>
+					<element geometry="Left=59;Top=791;Right=209;Bottom=811;" subject="EAID_7984406C_42B8_4eb7_A2C6_3520938884FF" seqno="7" style="HideIcon=0;ImageID=0;DUID=E625608C;"/>
+					<element geometry="Left=59;Top=762;Right=209;Bottom=782;" subject="EAID_2F4960DE_3C5E_4b68_BB7D_EAF3A3E35E68" seqno="8" style="HideIcon=0;ImageID=0;DUID=BACC02DF;"/>
+					<element geometry="Left=26;Top=723;Right=154;Bottom=745;" subject="EAID_0DAEBB90_053A_45de_B684_6ABB56B41B89" seqno="9" style="font=Times New Roman;fontsz=120;bold=0;black=0;italic=0;ul=0;charset=0;pitch=18;NSL=0;ImageID=0;DUID=557A9713;"/>
+					<element geometry="Left=26;Top=41;Right=554;Bottom=184;" subject="EAID_330A1B79_BCE8_4b1d_99CF_7435E10FB471" seqno="10" style="font=Times New Roman;fontsz=120;bold=0;black=0;italic=0;ul=0;charset=0;pitch=18;ImageID=0;DUID=ECE8301D;"/>
+					<element geometry="Left=65;Top=281;Right=558;Bottom=329;" subject="EAID_5A8A44EB_6A5C_4726_96ED_833DDE3AE450" seqno="11" style="font=Times New Roman;fontsz=120;bold=0;black=0;italic=0;ul=0;charset=0;pitch=18;ImageID=0;DUID=91ADC5D2;"/>
+					<element geometry="Left=26;Top=207;Right=554;Bottom=255;" subject="EAID_D8F1712C_E162_4e22_9D6B_19657359E8F5" seqno="12" style="font=Times New Roman;fontsz=120;bold=0;black=0;italic=0;ul=0;charset=0;pitch=18;ImageID=0;DUID=7B884195;"/>
+					<element geometry="Left=0;Top=0;Right=333;Bottom=39;" subject="EAID_81394EA6_BE28_443e_9FE0_AFB3EBE5993B" seqno="13" style="fontsz=200;bold=0;black=0;italic=0;ul=0;charset=0;pitch=18;font=Times New Roman;ImageID=0;DUID=F2862DBF;"/>
+					<element geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_94CF0A0B_CDEF_4ae1_B520_35A45BE44420" style="Mode=3;EOID=CA981629;SOID=D60DB98D;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E17637BB_8F71_4244_96EC_BA8FA56FFF3B" style="Mode=3;EOID=CA981629;SOID=C6268EFB;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+		</diagrams>
+	</xmi:Extension>
+	<thecustomprofile:metaclass base_Class="EAID_D7E7714F_6D68_4374_A79C_650C71195563"/>
+	<thecustomprofile:toolbox_profile base_Profile="EAPK_0EF7C18C_DD36_414d_9887_579EB265EF57" __EAStereoName="toolbox profile"/>
+</xmi:XMI>
