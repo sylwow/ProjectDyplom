@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<MDG.Technology version="1.0"><Documentation id="Toolbox3" name="toolbox3" version="2" notes="tool"/><UMLProfiles><UMLProfile profiletype="uml2">
+			<Documentation id="55418E13-5" name="PW-CRC-Dawida" version="1.0" notes="diagram"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Sesja crc" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Diagram_Activity"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Struktura dziedziny" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Diagram_Logical"/>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="07B0EF8A-6" name="PW-CRC-Dawida" version="1.0" notes="PW-CRC-Dawida"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Class1" notes="" cx="0" cy="0"/>
+					<Stereotype name="CRC" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Dyplomant" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Komunikat" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Operation">
+								<Property name="isOrdered" value=""/>
+								<Property name="isQuery" value="false"/>
+								<Property name="isUnique" value=""/>
+								<Property name="lower" value=""/>
+								<Property name="upper" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Odpowiedzialno&#347;&#263;" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Operation">
+								<Property name="isOrdered" value=""/>
+								<Property name="isQuery" value="false"/>
+								<Property name="isUnique" value=""/>
+								<Property name="lower" value=""/>
+								<Property name="upper" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Promotor" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Recenzent" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="zarz&#261;dca" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="0EF7C18C-D" name="PW-CRC-Dawida" version="1.0" notes="toolbox"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Struktura" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="PW-CRC-Dawida::CRC(UML::Class)" type="" description="" unit="" values="" default="Karta Crc"/>
+							<Tag name="PW-CRC-Dawida::Odpowiedzialno&#347;&#263;(UML::Operation)" type="" description="" unit="" values="" default="odpowiedzialno&#347;&#263; karty"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Zachowanie" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="PW-CRC-Dawida::Komunikat(UML::Operation)" type="" description="" unit="" values="" default="Komunikat"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</UMLProfiles><DiagramProfile><UMLProfile profiletype="uml2">
+			<Documentation id="55418E13-5" name="PW-CRC-Dawida" version="1.0" notes="diagram"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Sesja crc" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Diagram_Activity"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Struktura dziedziny" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Diagram_Logical"/>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="07B0EF8A-6" name="PW-CRC-Dawida" version="1.0" notes="PW-CRC-Dawida"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Class1" notes="" cx="0" cy="0"/>
+					<Stereotype name="CRC" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Dyplomant" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Komunikat" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Operation">
+								<Property name="isOrdered" value=""/>
+								<Property name="isQuery" value="false"/>
+								<Property name="isUnique" value=""/>
+								<Property name="lower" value=""/>
+								<Property name="upper" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Odpowiedzialno&#347;&#263;" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Operation">
+								<Property name="isOrdered" value=""/>
+								<Property name="isQuery" value="false"/>
+								<Property name="isUnique" value=""/>
+								<Property name="lower" value=""/>
+								<Property name="upper" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Promotor" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Recenzent" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="zarz&#261;dca" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="0EF7C18C-D" name="PW-CRC-Dawida" version="1.0" notes="toolbox"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Struktura" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="PW-CRC-Dawida::CRC(UML::Class)" type="" description="" unit="" values="" default="Karta Crc"/>
+							<Tag name="PW-CRC-Dawida::Odpowiedzialno&#347;&#263;(UML::Operation)" type="" description="" unit="" values="" default="odpowiedzialno&#347;&#263; karty"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Zachowanie" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="PW-CRC-Dawida::Komunikat(UML::Operation)" type="" description="" unit="" values="" default="Komunikat"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</DiagramProfile><UIToolboxes><UMLProfile profiletype="uml2">
+			<Documentation id="55418E13-5" name="PW-CRC-Dawida" version="1.0" notes="diagram"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Sesja crc" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Diagram_Activity"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Struktura dziedziny" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Diagram_Logical"/>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="07B0EF8A-6" name="PW-CRC-Dawida" version="1.0" notes="PW-CRC-Dawida"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Class1" notes="" cx="0" cy="0"/>
+					<Stereotype name="CRC" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Dyplomant" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Komunikat" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Operation">
+								<Property name="isOrdered" value=""/>
+								<Property name="isQuery" value="false"/>
+								<Property name="isUnique" value=""/>
+								<Property name="lower" value=""/>
+								<Property name="upper" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Odpowiedzialno&#347;&#263;" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Operation">
+								<Property name="isOrdered" value=""/>
+								<Property name="isQuery" value="false"/>
+								<Property name="isUnique" value=""/>
+								<Property name="lower" value=""/>
+								<Property name="upper" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Promotor" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Recenzent" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="zarz&#261;dca" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="0EF7C18C-D" name="PW-CRC-Dawida" version="1.0" notes="toolbox"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Struktura" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="PW-CRC-Dawida::CRC(UML::Class)" type="" description="" unit="" values="" default="Karta Crc"/>
+							<Tag name="PW-CRC-Dawida::Odpowiedzialno&#347;&#263;(UML::Operation)" type="" description="" unit="" values="" default="odpowiedzialno&#347;&#263; karty"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Zachowanie" notes="" cx="0" cy="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="PW-CRC-Dawida::Komunikat(UML::Operation)" type="" description="" unit="" values="" default="Komunikat"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</UIToolboxes></MDG.Technology>
